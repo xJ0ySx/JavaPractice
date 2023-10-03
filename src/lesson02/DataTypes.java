@@ -74,7 +74,7 @@ boolean isConected = false;
        var bigNumber = 10L; // long
        var connected = true; // boolean
        var balance = 4000.8; // double
-       var nemberOfHours = 50.5F, // float
+       var nemberOfHours = 50.5F; // float
        var price = (short) 290; // нужно привести в short и byte
 
 
