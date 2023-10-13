@@ -79,10 +79,6 @@ boolean isConected = false;
 
 
 
-
-
-
-
    }
 
 }

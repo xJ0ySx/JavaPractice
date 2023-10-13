@@ -13,7 +13,7 @@ public class ArithmeticOperators {
         byte var01 = 89, var02 = 11;
         int byteResult = var01 + var02;
         int byteResult02 = (byte) (var01 + var02);
-
+        System.out.println(byteResult02);
         double bill = 503;
         double halfBill = bill / 2;
         System.out.println(halfBill);

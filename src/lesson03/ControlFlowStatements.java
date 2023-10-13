@@ -52,7 +52,7 @@ public class ControlFlowStatements {
         } else {
             System.out.println(var3);
         }
-int monthNumber = 4;
+        int monthNumber = 4;
         switch (monthNumber) {
             /*работает только с int
             byte
@@ -99,11 +99,11 @@ int monthNumber = 4;
 
         char seasonLetter = switch (monthNumber) {
             case 12, 1, 2 -> 'з';
-            case 3, 4, 5  -> 'в';
-            case 6, 7, 8  -> 'л';
+            case 3, 4, 5 -> 'в';
+            case 6, 7, 8 -> 'л';
             case 9, 10, 11 -> 'о';
             default -> 'e'; // обязательный блок
-        } ;
+        };
         System.out.println(seasonLetter);
 
         seasonLetter = switch (monthNumber) {
@@ -130,9 +130,9 @@ int monthNumber = 4;
         };
         var florNumber = 1717;
         switch (florNumber) {
-        case 1, 2 -> System.out.println("На этаже 7 квартир");
-        case 3, 4 -> System.out.println("На этаже 5 квартир");
-        case 5 -> System.out.println("На этаже 2 квартиры");
+            case 1, 2 -> System.out.println("На этаже 7 квартир");
+            case 3, 4 -> System.out.println("На этаже 5 квартир");
+            case 5 -> System.out.println("На этаже 2 квартиры");
             default -> System.out.println("Этаж не выбран или не существует");
         }
 
